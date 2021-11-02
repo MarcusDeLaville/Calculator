@@ -136,10 +136,11 @@ namespace Calculator
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(50, 50);
             this.buttonClear.TabIndex = 4;
-            this.buttonClear.Text = "0";
+            this.buttonClear.Text = "C";
             this.buttonClear.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.buttonClear.UseAccentColor = true;
             this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
             // buttonDiv
             // 
