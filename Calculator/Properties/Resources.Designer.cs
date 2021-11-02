@@ -59,15 +59,5 @@ namespace Calculator.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap photo_2021_10_04_23_27_42 {
-            get {
-                object obj = ResourceManager.GetObject("photo_2021-10-04_23-27-42", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
