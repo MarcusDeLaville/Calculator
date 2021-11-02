@@ -67,6 +67,7 @@ namespace Calculator
             this.button7.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.button7.UseAccentColor = false;
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button_OnClick);
             // 
             // display
             // 
@@ -83,6 +84,7 @@ namespace Calculator
             this.display.TabIndex = 1;
             this.display.Text = "";
             this.display.TrailingIcon = null;
+            this.display.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPress);
             // 
             // button8
             // 
@@ -102,6 +104,7 @@ namespace Calculator
             this.button8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.button8.UseAccentColor = false;
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button_OnClick);
             // 
             // button9
             // 
@@ -121,6 +124,7 @@ namespace Calculator
             this.button9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.button9.UseAccentColor = false;
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button_OnClick);
             // 
             // buttonClear
             // 
@@ -160,6 +164,7 @@ namespace Calculator
             this.buttonDiv.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.buttonDiv.UseAccentColor = false;
             this.buttonDiv.UseVisualStyleBackColor = true;
+            this.buttonDiv.Click += new System.EventHandler(this.Operation_Click);
             // 
             // button6
             // 
@@ -179,6 +184,7 @@ namespace Calculator
             this.button6.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.button6.UseAccentColor = false;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button_OnClick);
             // 
             // button5
             // 
@@ -198,6 +204,7 @@ namespace Calculator
             this.button5.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.button5.UseAccentColor = false;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button_OnClick);
             // 
             // button4
             // 
@@ -217,6 +224,7 @@ namespace Calculator
             this.button4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.button4.UseAccentColor = false;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button_OnClick);
             // 
             // buttonMul
             // 
@@ -236,6 +244,7 @@ namespace Calculator
             this.buttonMul.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.buttonMul.UseAccentColor = false;
             this.buttonMul.UseVisualStyleBackColor = true;
+            this.buttonMul.Click += new System.EventHandler(this.Operation_Click);
             // 
             // button3
             // 
@@ -255,6 +264,7 @@ namespace Calculator
             this.button3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.button3.UseAccentColor = false;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button_OnClick);
             // 
             // button2
             // 
@@ -274,6 +284,7 @@ namespace Calculator
             this.button2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.button2.UseAccentColor = false;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button_OnClick);
             // 
             // button1
             // 
@@ -293,7 +304,7 @@ namespace Calculator
             this.button1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.button1.UseAccentColor = false;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.materialButton12_Click);
+            this.button1.Click += new System.EventHandler(this.button_OnClick);
             // 
             // buttonMinus
             // 
@@ -313,6 +324,7 @@ namespace Calculator
             this.buttonMinus.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.buttonMinus.UseAccentColor = false;
             this.buttonMinus.UseVisualStyleBackColor = true;
+            this.buttonMinus.Click += new System.EventHandler(this.Operation_Click);
             // 
             // buttonPlus
             // 
@@ -332,6 +344,7 @@ namespace Calculator
             this.buttonPlus.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.buttonPlus.UseAccentColor = false;
             this.buttonPlus.UseVisualStyleBackColor = true;
+            this.buttonPlus.Click += new System.EventHandler(this.Operation_Click);
             // 
             // buttonCalc
             // 
@@ -351,6 +364,7 @@ namespace Calculator
             this.buttonCalc.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.buttonCalc.UseAccentColor = false;
             this.buttonCalc.UseVisualStyleBackColor = true;
+            this.buttonCalc.Click += new System.EventHandler(this.Calculation_Click);
             // 
             // button0
             // 
@@ -370,6 +384,7 @@ namespace Calculator
             this.button0.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.button0.UseAccentColor = false;
             this.button0.UseVisualStyleBackColor = true;
+            this.button0.Click += new System.EventHandler(this.button_OnClick);
             // 
             // CalculatorForm
             // 
